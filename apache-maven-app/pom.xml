@@ -17,9 +17,17 @@
     <!-- Jika ingin menggunakan class data atau class dari module lain   -->
     <dependencies>
         <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+        </dependency>
+        <dependency>
             <groupId>tirwanda</groupId>
             <artifactId>apache-maven-data</artifactId>
-            <version>${project.version}</version>
         </dependency>
     </dependencies>
 
