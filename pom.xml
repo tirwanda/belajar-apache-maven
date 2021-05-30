@@ -8,6 +8,15 @@
   <artifactId>Java-Apache-Maven</artifactId>
   <version>1.0-SNAPSHOT</version>
 
+  <!-- Ganti packaging dari jar menjadi pom  -->
+  <packaging>pom</packaging>
+
+  <!-- Tambahkan module apa saja yang di gunakan  -->
+  <modules>
+    <module>apache-maven-app</module>
+    <module>apache-maven-data</module>
+  </modules>
+
   <name>Java Apache Maven</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
@@ -31,7 +40,6 @@
       <groupId>com.google.code.gson</groupId>
       <artifactId>gson</artifactId>
       <version>${gson.version}</version>
-      <scope>compile</scope>
     </dependency>
   </dependencies>
 

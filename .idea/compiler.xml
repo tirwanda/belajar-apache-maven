@@ -6,10 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Java Apache Maven" />
+        <module name="apache-maven-app" />
+        <module name="apache-maven-data" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="apache-maven-app" target="15" />
+      <module name="apache-maven-data" target="15" />
       <module name="Java Apache Maven" target="15" />
     </bytecodeTargetLevel>
   </component>
